@@ -1,0 +1,114 @@
+body {
+	background: #F7C8D0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+}
+
+*{
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+}
+#logout{
+	transition: transform .2s;
+}
+
+#logout:hover{
+	transform: scale(1.2);
+}
+form {
+	width: 500px;
+	border: 2px solid #000;
+	padding: 30px 20px;
+	background: #fff;
+	border-radius: 15px;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 40px;
+}
+html {
+	min-height: 100%;
+	background-image: url(img/run3.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+ }
+
+input {
+	display: block;
+	border: 2px solid #000;
+	width: 95%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+
+.distance{
+	display: inline-flex;
+	margin-left: 20px;
+	padding: 20px 0 0 0;
+}
+input[type="radio"]{
+	margin-top: -15px;
+	margin-right: 5px;
+}
+.labels{
+	margin-left: 15px;
+	color: white;
+}
+label {
+	color: #888;
+	font-size: 18px;
+	padding: 10px;
+}
+
+button {
+	float: right;
+	background: #555;
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+}
+button:hover{
+	opacity: .7;
+}
+.error {
+   background: #F2DEDE;
+   color: #A94442;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+.success {
+   background: #D4EDDA;
+   color: #40754C;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+h1 {
+	text-align: center;
+	color: #fff;
+}
+
+.ca {
+	font-size: 14px;
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	color: #444;
+}
+.ca:hover {
+	text-decoration: underline;
+} 
+
